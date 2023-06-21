@@ -27,8 +27,15 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 
 
+
+
 # Grafica 
 ![](https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/figuressw/Chapter5/HuffTinyTiny.png)
+
+
+
+
+
 
 
 
@@ -46,6 +53,11 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 
 `java HuffmanCompression`
+
+
+
+
+
 
 
 
@@ -106,6 +118,25 @@ public class HuffmanDecompression {
 
 - Asegúrate de tener el archivo "compressed.bin" en el mismo directorio donde se encuentra este código.
 - Ejecuta el código y se generará un archivo "decompressed.txt" que contiene el texto decodificado.
+
+
+
+
+
+
+
+# Referencias 
+
+`<link>` : <https://bing.com/search?q=tutoriales+de+compresi%c3%b3n+de+datos+con+Huffman>
+
+
+`<link>` : <https://www.youtube.com/watch?v=85NFcU8yTSs>
+
+
+`<link>` : <https://www.iiis.org/CDs2009/CD2009CSC/CISCI2009/PapersPdf/C177TX.pdf>
+
+
+
 
 
 
