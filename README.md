@@ -48,3 +48,65 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 `java HuffmanCompression`
 
 
+
+## como usarlo
+
+
+1 Compilación:
+
+- Abre una terminal o línea de comandos.
+- Navega hasta el directorio donde tienes el archivo "HuffmanCompression.java".
+- Ejecuta el siguiente comando para compilar el archivo Java:
+
+`javac HuffmanCompression.java`
+
+Si la compilación es exitosa, se generará un archivo "HuffmanCompression.class".
+
+
+2 Ejecución:
+
+- Asegúrate de tener un archivo de texto que deseas comprimir. Puedes crear un archivo de texto simple utilizando un editor de texto como Notepad o TextEdit.
+-En la misma terminal o línea de comandos, ejecuta el siguiente comando para ejecutar el programa:
+
+`java HuffmanCompression`
+
+- Se mostrará el mensaje "Ingrese el nombre del archivo de texto: ".
+- Ingresa el nombre del archivo de texto que deseas comprimir, incluyendo la extensión (por ejemplo, "texto.txt").
+- Se mostrará el texto codificado, la tasa de compresión y el texto decodificado en la consola.
+- El archivo comprimido se guardará con el nombre "compressed.bin" en el mismo directorio.
+- 
+3 Decodificación:
+
+Si deseas decodificar el archivo comprimido, puedes utilizar el siguiente código como ejemplo:
+
+####Java
+
+```javascript
+import java.io.IOException;
+
+public class HuffmanDecompression {
+    public static void main(String[] args) {
+      
+        String compressedFileName = "compressed.bin";
+        String decompressedFileName = "decompressed.txt";
+
+        HuffmanCompression huffman = new HuffmanCompression();
+        try {
+            String encodedText = HuffmanCompression.readEncodedFile(compressedFileName);
+            String decodedText = huffman.decode(encodedText);
+            HuffmanCompression.saveDecodedFile(decompressedFileName, decodedText);
+            System.out.println("Archivo decodificado guardado como " + decompressedFileName);
+          
+        } catch (IOException e) {
+            System.out.println("Error al decodificar el archivo: " + e.getMessage());
+        }
+    }
+}
+```
+
+- Asegúrate de tener el archivo "compressed.bin" en el mismo directorio donde se encuentra este código.
+- Ejecuta el código y se generará un archivo "decompressed.txt" que contiene el texto decodificado.
+
+
+
+
