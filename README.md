@@ -27,13 +27,13 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 
 
-## Grafica 
+# Grafica 
 ![](https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/figuressw/Chapter5/HuffTinyTiny.png)
 
 
 
 
-## Instalacion 
+# Instalacion 
 1  Guarda el código en un archivo con extensión .java, por ejemplo, HuffmanCompression.java.
 
 2  Asegúrate de tener un archivo de texto llamado input.txt en el mismo directorio que el archivo .java. Este archivo será el texto de entrada que se desea comprimir y luego decodificar.
@@ -49,10 +49,10 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 
 
-## como usarlo
+# como usarlo
 
 
-1 Compilación:
+## 1 Compilación:
 
 - Abre una terminal o línea de comandos.
 - Navega hasta el directorio donde tienes el archivo "HuffmanCompression.java".
@@ -63,7 +63,7 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 Si la compilación es exitosa, se generará un archivo "HuffmanCompression.class".
 
 
-2 Ejecución:
+## 2 Ejecución:
 
 - Asegúrate de tener un archivo de texto que deseas comprimir. Puedes crear un archivo de texto simple utilizando un editor de texto como Notepad o TextEdit.
 -En la misma terminal o línea de comandos, ejecuta el siguiente comando para ejecutar el programa:
@@ -75,13 +75,13 @@ Si la compilación es exitosa, se generará un archivo "HuffmanCompression.class
 - Se mostrará el texto codificado, la tasa de compresión y el texto decodificado en la consola.
 - El archivo comprimido se guardará con el nombre "compressed.bin" en el mismo directorio.
 - 
-3 Decodificación:
+## 3 Decodificación:
 
 Si deseas decodificar el archivo comprimido, puedes utilizar el siguiente código como ejemplo:
 
 ####Java
 
-```javascript
+```java
 import java.io.IOException;
 
 public class HuffmanDecompression {
