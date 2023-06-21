@@ -29,3 +29,22 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 ## Grafica 
 ![](https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/figuressw/Chapter5/HuffTinyTiny.png)
+
+
+
+
+## Instalacion 
+1  Guarda el código en un archivo con extensión .java, por ejemplo, HuffmanCompression.java.
+
+2  Asegúrate de tener un archivo de texto llamado input.txt en el mismo directorio que el archivo .java. Este archivo será el texto de entrada que se desea comprimir y luego decodificar.
+
+3  Compila el código Java ejecutando el siguiente comando en la terminal:
+
+`javac HuffmanCompression.java`
+
+4  Después de compilar sin errores, ejecuta el programa con el siguiente comando:
+
+
+`java HuffmanCompression`
+
+
