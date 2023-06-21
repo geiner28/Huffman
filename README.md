@@ -42,6 +42,7 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 # Instalacion 
 1  Guarda el código en un archivo con extensión .java, por ejemplo, HuffmanCompression.java.
+( el archivo con el codigo fuente se encuentra en la carpete **SRC*)
 
 2  Asegúrate de tener un archivo de texto llamado input.txt en el mismo directorio que el archivo .java. Este archivo será el texto de entrada que se desea comprimir y luego decodificar.
 
@@ -66,9 +67,11 @@ Este proyecto se enfoca en la implementación básica del algoritmo de compresi�
 
 ## 1 Compilación:
 
+
 - Abre una terminal o línea de comandos.
 - Navega hasta el directorio donde tienes el archivo "HuffmanCompression.java".
 - Ejecuta el siguiente comando para compilar el archivo Java:
+  ( el archivo con el codigo fuente se encuentra en la carpete **SRC*)
 
 `javac HuffmanCompression.java`
 
